@@ -2,11 +2,19 @@
 <style>
     h1 {
     color: blue;
-    background-color: yellow;
-    border: 1px solid black;
+    background-color: rgb(54, 167, 161);
+    border: 1px solid rgb(224, 241, 182);
     }
     p {
     color: red;
+    }
+    h2 {
+    color: blue;
+    background-color: rgb(150, 158, 40);
+    border: 1px solid rgb(207, 59, 141);
+    }
+    p {
+    color: rgb(201, 69, 69);
     }
     </style>
 <html>
@@ -49,4 +57,28 @@ var Test = calcD(1,2,3)
     }
     alert("Спасибо, что уделили время")
     </script>
-
+<body>
+    <h1>Конспект курса</h1>
+    <p class="learned-ok">Парные теги.</p>
+    <p class="learned-ok"><h2>Одиночные теги</h2></p>
+    <p class="learned-ok">Атрибуты тегов.</p>
+    <p class="learned-ok"><b>Инлайновые (встроенные) стили</b>.</p>
+    <p class="learning-in-progress">Внешние стили.</p>
+    <p class="not-learned"><h3>Стилизация по классам</h3></p>
+    </body>
+    <style>
+    body {
+    font-family: Tahoma, serif;
+    }
+    h1 {
+    color: #551211;
+    }
+    .learned-ok {
+    color: rgb(54, 110, 54);
+    }
+    .learning-in-progress {
+    color: rgb(141, 96, 12);
+    
+    }
+  
+</style>
